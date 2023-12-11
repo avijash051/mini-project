@@ -1,13 +1,8 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true
-});
 function videoconAnimation()
 {
-    var videocon = document.querySelector
-("#video-container")
-var playbth = document.querySelector("#play")
-videocon.addEventListener("mouseenter",function(){
+    var videocon = document.querySelector("#video-container")
+    var playbth = document.querySelector("#play")
+    videocon.addEventListener("mouseenter",function(){
     gsap.to(playbth,{
         scale:1,
         opacity:1    
@@ -23,8 +18,7 @@ videocon.addEventListener("mousemove",function(dets){
     gsap.to(playbth,{
         left:dets.x-85,
         top:dets.y-60
-    }) 
-})
+    })})
 }
 videoconAnimation()
 
