@@ -21,7 +21,7 @@ html,body{
     padding-top: 25vh;
 }
 #page1 h1{
-    font-size: 12.5vw;
+    font-size: 12.7vw;
     text-transform: uppercase;
     font-family: futura;
     line-height: 15vw ;
@@ -48,7 +48,7 @@ html,body{
    
 }
 #video-container #play{
-   padding: 3vw 2vw;
+   padding: 3.3vw 2vw;
    background-color: black;
    color:#fff;
    font-size: 1.3vw;
@@ -69,14 +69,16 @@ html,body{
     justify-content:space-between;
 }
 #page2 .elem{
-    height: 100%;
+    height: 120%;
     width: 31%;
-    background: red;
+    /* background-color: red; */
+    overflow: hidden;
 }
 #page2 .elem img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    scale: 1.1;
 }
 
 #page3{
